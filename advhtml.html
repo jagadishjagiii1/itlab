@@ -1,0 +1,97 @@
+<html>
+<head>
+<title> forms </title>
+</head>
+<body>
+<form>
+        <b> single line input </b><br>
+        first name : <input type ="text" name="first_name"/>
+        <br>
+        last name  : <input type ="text" name="last_name"/>
+<br>
+        <b> multiple line input </b><br>
+        <textarea rows = "5" cols="50">
+            welcome to internet technologies
+            Information technology (IT) is the use of computers to store,
+        </textarea>
+<br>
+        <b> checkbox </b><br>
+        <input type ="checkbox"> i have a bike
+<br>
+        <input type ="checkbox"> i have a car
+<br>
+         <b> radio button </b><br>
+        <input type ="radio" name="gender" value ="male" checked> male
+<br>
+        <input type ="radio" name="gender" value ="female"> female
+<br>
+        <input type ="radio" name="gender"value ="other"> other
+<br>
+         <b> select box </b><br>
+          <select name ="bikes" size="4" multiple>
+         <option value ="ninja"> ninja </option>
+         <option value ="bmw"> bmw </option>
+         <option value ="pulsur"> pulsur </option>
+         <option value =" shine "> honda </option>
+         </select><br>
+
+       
+         <b> button controls </b><br>
+         <input type ="button" name="ok" value="ok"/>
+         <button type ="button" onclick="alert('hello')"> click me </button>
+         <input type ="image" name="imagebutton" src="bulb.jpg"/><br>
+         <b> PASSWORD  </b><br>
+         <input type ="password" name="psw">
+         <input type ="submit" value="submit">
+         <input type ="reset">
+         <input type ="color"><br>
+
+         <b> DETAILS  </b><br>
+         <b> DATE  </b>
+         <input type ="date"><br>
+          <b> EMAIL  </b>
+         <input type ="email"><br>
+	 <b> FILE  </b>
+         <input type ="file"><br>
+	 <b> MONTH  </b>
+         <input type ="month"><br>
+	<b> NUMBER FIELS  </b>
+         <input type ="number"><br>
+	<b> TIME  </b>
+         <input type ="time"><br>         
+        <b> URL  </b>
+         <input type ="url"><br>
+        <b> RANGE  </b>
+         <input type ="range" min="0" max="10000"><br>
+	<b> READ ONLY  </b>
+         <input type ="text" name="college" value="presidency university"><br>
+	<input type ="text" name="college" value="presidency university"readonly><br>
+	<input type ="text" name="college" value="presidency university"disabled><br>
+ 	<b> size  </b>
+         <input type ="text" name="college" size="40"><br>
+	<input type ="text" name="college" maxlength="40"><br>
+	<input type ="text" name="college" autofocus><br>
+	<b> PATTERN  </b>
+         <input type ="text" name="collegecode" pattern="[A-Za-z]{3}"><br>
+	<b> palce holder  </b>
+         <input type ="text" name="fname" placeholder="firstname"><br>
+	<b> required  </b>
+         <input type ="text" name="username" required><br>
+	<b> grouping data  </b>
+        <form action="/actionpage.php">
+	<fieldset>
+	<legend> personal information : </legend>
+        first name : <br>
+        <input type="text" name="firstname" value="micky"><br>
+	<input type="text" name="lastname" value="mouse"><br>
+	<input type="submit" value="submit">
+        </fieldset>
+	</form>
+
+         
+         
+         
+</form> 
+
+</body>
+</html>
